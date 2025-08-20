@@ -11,14 +11,13 @@ import matplotlib.pyplot as plt
 from matplotlib.colors import to_rgb
 from matplotlib.lines import Line2D
 import seaborn as sns
-import glob, re
-import pyarrow.parquet as pq
+import re
 from scipy.stats import chi2_contingency
 import textwrap # permet de traiter le texte
 from joblib import dump, load
 from wordcloud import WordCloud, STOPWORDS
 from unidecode import unidecode
-import json
+import json, os
 
 
 ### ============================================================================================ ###
@@ -36,7 +35,7 @@ st.set_page_config(
     )
 
 # Définir un dictionnaire d'alias pour les noms de colonnes
-df_ref = pd.read_csv('Nom des variables.csv', index_col='Unnamed: 0').rename(
+df_ref = pd.read_csv(os.path.join('Others','Nom des variables.csv'), index_col='Unnamed: 0').rename(
     columns={'0': 'valeur_du_dict', 'index': 'cle_du_dict'}
 )
 # Convertissez le DataFrame en dictionnaire
@@ -56,7 +55,7 @@ COLUMN_ALIASES['ecole'] = "Écoles"
 def load_data(file_name):
     """Charge un DataFrame à partir d'un fichier .parquet et retourne ses colonnes catégorielles."""
     try:
-        df = pd.read_parquet(file_name)
+        df = pd.read_parquet(os.path.join('Data',file_name))
         return df
     except FileNotFoundError:
         st.error(f"Erreur : Le fichier '{file_name}' n'a pas été trouvé. Assurez-vous qu'il se trouve dans le même répertoire que le script.")
@@ -85,7 +84,7 @@ def load_all_data(parquet_files):
 def load_joblib(file_name):
     """Charge un objet python à partir d'un fichier .joblib"""
     try:
-        objet = load(file_name)
+        objet = load(os.path.join('Others',file_name))
         return objet
     except FileNotFoundError:
         st.error(f"Erreur : Le fichier '{file_name}' n'a pas été trouvé. Assurez-vous qu'il se trouve dans le même répertoire que le script.")
@@ -1088,8 +1087,8 @@ with col2:
 st.subheader("6.2 - Résumés des avis exprimés par question ")
 
 
-llm_general = load_json('llm_general.json')
-llm_per_cluster = load_json('llm_per_cluster.json')
+llm_general = load_json(os.path.join('Others','llm_general.json'))
+llm_per_cluster = load_json(os.path.join('Others','llm_per_cluster.json'))
 
 #-- on crée le menu déroulant des questions
 llmCol = st.selectbox("Choisissez la question dont vous voulez voir le résumé des avis",
