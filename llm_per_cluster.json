@@ -1,0 +1,434 @@
+{
+  "quali1 - Cluster 2": {
+    "main_message": "Je m'assure que tout le monde comprend le problème en communiquant, discutant et posant des questions pertinentes.",
+    "key_themes": [
+      "communication",
+      "discussion",
+      "questions",
+      "comprehension"
+    ],
+    "sentiment": "positive",
+    "representative_quotes": [
+      "Nous en discutons tous ensemble avant d'entamer la résolution.",
+      "Je demande à tous les membres s'ils ont compris avant de passer aux étapes suivantes. S'ils n'ont pas compris, on s'arrête, on explique et on s'assure que tout le monde a compris avant d'avancer.",
+      "Nous procédons a une discussion sur le problème à résoudre pour mettre en commun ce que chacun des membres a compris pour s'assurer que nous sommes sur la meme longueur d'onde."
+    ],
+    "anomalies": []
+  },
+  "quali1 - Cluster 3": {
+    "main_message": "Je communique et discute avec mes coéquipiers pour comprendre ensemble les problèmes et trouver des solutions.",
+    "key_themes": [
+      "communication",
+      "collaboration",
+      "compréhension",
+      "décision",
+      "compétences personnelles"
+    ],
+    "sentiment": "positive",
+    "representative_quotes": [
+      "On communique entre nous , le plus on parle, le plus d'informations nous obtenons grâce à nos apprentissages antérieurs.",
+      "Je demande si tout le monde est d'accord avec la décision.",
+      "Je leur pose des questions et je discute des tâches à effectuer. Je partage mon point de vue de la tâche et je m'assure que nous pensons tous la même chose. Si nos idées se diffèrent, je révise avec eux les documents."
+    ],
+    "anomalies": [
+      "Honnêtement, je ne fais pas grand chose, si on ne me dit pas qu'ils ont besoin d'aide."
+    ]
+  },
+  "quali1 - Cluster 1": {
+    "main_message": "Je m'assure de communiquer clairement et d'expliquer les tâches à accomplir pour que tout le monde comprenne. En outre, je répète, reformule et demande des questions pour que tous les élèves comprennent le sujet.",
+    "key_themes": [
+      "communication",
+      "clarity",
+      "comprehension",
+      "collaboration",
+      "task explanation",
+      "récapitulation",
+      "vulgarisation",
+      "questionnement"
+    ],
+    "sentiment": "positive",
+    "representative_quotes": [
+      "Je demande de m'expliquer le raisonnement pour voir s'ils ont compris et sont à l'aise avec le sujet. \nJe leur pose des questions et leur demande de faire des liens avec des concepts / exemples de la vie de tous les jours.",
+      "On résume la tâche en discutant de ce que nous avons retenus du problème et en rassemblant toutes nos données. Ainsi, tout le monde est à jour et on assume que tout le monde comprend.",
+      "Répartions des tâches de maniére égale. De plus, je m'assure que tout le monde sache ce qu'ils ont à faire."
+    ],
+    "anomalies": []
+  },
+  "quali1 - Cluster 4": {
+    "main_message": "En communiquant adéquatement et en expliquant clairement, nous pouvons faciliter la compréhension des élèves.",
+    "key_themes": [
+      "communication",
+      "clarification",
+      "compréhension",
+      "discussion",
+      "validation"
+    ],
+    "sentiment": "positive",
+    "representative_quotes": [
+      "Je leur fais lire les instructions du problème, puis je leur demande s'ils ont compris ce que l'on a à faire.",
+      "On communique, on se pose des questions et on se répond de différentes façons",
+      "On se parle et on se le dit clairement si on ne comprend pas"
+    ],
+    "anomalies": [
+      "Je ne m'en assure pas c'est plus si simple"
+    ]
+  },
+  "quali2 - Cluster 2": {
+    "main_message": "Je suis engagé dans la collaboration avec mon équipe pour résoudre un problème en utilisant diverses méthodes et approches. Je partage mes idées, je m'assure que tout le monde comprend le contexte du projet et j'aide les autres à trouver des solutions.",
+    "key_themes": [
+      "collaboration",
+      "problem-solving",
+      "sharing ideas",
+      "understanding context",
+      "teamwork"
+    ],
+    "sentiment": "positive",
+    "representative_quotes": [
+      "J'ai donné mon point de vue",
+      "En parlant avec eux.",
+      "Je m'assure qu'on a la même compréhension du problème et qu'on a le même objectif."
+    ],
+    "anomalies": []
+  },
+  "quali2 - Cluster 3": {
+    "main_message": "Je suis impliqué dans des discussions collaboratives pour résoudre un problème en utilisant ma compréhension de la théorie, mes connaissances et mon avis. Je coordonne les tâches de l'équipe en fonction de leurs forces et faiblesses.",
+    "key_themes": [
+      "collaboration",
+      "discussion",
+      "théorie",
+      "problème",
+      "compétences"
+    ],
+    "sentiment": "positive",
+    "representative_quotes": [
+      "J’ai proposé des idées à mon équipe et j’ai exécuté les résolutions.",
+      "Nous avons fait preuve de connaître le sujet.",
+      "J'ai étais activement impliqué dans la discussion et je me suis assuré de bien comprendre le spoint de vues de tous et de les valoriser."
+    ],
+    "anomalies": [
+      "Je ne sais pas"
+    ]
+  },
+  "quali2 - Cluster 1": {
+    "main_message": "En travaillant activement sur les notions clés du problème, je contribue à l'organisation des solutions en collaborant avec mon équipe et en utilisant mes connaissances, raisonnement et communication.",
+    "key_themes": [
+      "recherche",
+      "idées",
+      "équipe",
+      "problème",
+      "solution",
+      "collaboration",
+      "connaissances",
+      "reasoning",
+      "communication"
+    ],
+    "sentiment": "positive",
+    "representative_quotes": [
+      "J'ai proposé mes solutions.\nJ'ai été ouverte à celles des autres.\nJ'ai essayé différents moyens pour résoudre le problème (pas seulement les miens) et j'ai analysé leur efficacité.",
+      "Je donnais mon opinion et si je n'étais pas en accord avec une de mes coéquipières, je lui expliquais mon raisonnement à moi. Ainsi, on peut avoir plusieurs points de vue et prendre la décision la plus éclairée possible.",
+      "En recherchant, des informations de nos cahiers et de nos leçons. Ainsi, j'ai trouvé celles-ci et j'en ai discuté avec mon équipe pour une validation de plus."
+    ],
+    "anomalies": []
+  },
+  "quali2 - Cluster 4": {
+    "main_message": "Je : J'ai collaboré avec mon équipe pour trouver des solutions efficaces en explorant différentes idées, en communiquant et en établissant un plan d'action.",
+    "key_themes": [
+      "collaboration",
+      "ideas exploration",
+      "communication",
+      "plan d'action",
+      "decision making"
+    ],
+    "sentiment": "positive",
+    "representative_quotes": [
+      "En collaborant tous ensamble, nous avons pu prendre la décision tous ensamble.",
+      "J'ai donné mon opinion qui ètait fondé sur mes connaissances e physique et en chimie tout en m'assurant que toutes les membres étaient sur la même longueur d'onde.",
+      "En élaborant toutes les \"solutions possibles\" et en choississant la plus logique pour le groupe."
+    ],
+    "anomalies": [
+      "Tableau de bord",
+      "je sais pas"
+    ]
+  },
+  "quali3 - Cluster 2": {
+    "main_message": "Je m'assure que chacun des membres de mon équipe a compris ce que nous venons de faire et que tout le monde est organisé pour résoudre le problème en collaborant efficacement.",
+    "key_themes": [
+      "collaboration",
+      "organisation",
+      "communication",
+      "planification",
+      "distribution des tâches"
+    ],
+    "sentiment": "positive",
+    "representative_quotes": [
+      "J'aime bien mettre à l’écrit ou préciser oralement tout ce qu’on sait comme information avant de débuter la résolution. Je résous aussi étape par étape en numérotant les pensées de mes démarches.",
+      "Je divise les tâches selon la capacité de chacune. Si une d'entre elles est plus à l'aise à équilibrer des équations, c'est elle qui s'en chargera. De plus, je dresse une liste de choses à faire et je coche les tâches au fur et à mesure.",
+      "Je planifie des étapes à suivre pour le bon résonnement du problème et je fait en sorte que mon plan de travail est bien organiser. Je note les résultats de façon organiser et claires."
+    ],
+    "anomalies": []
+  },
+  "quali3 - Cluster 3": {
+    "main_message": "Résumé LLM indisponible. Fallback TF-IDF.",
+    "key_themes": [
+      "de",
+      "les",
+      "en",
+      "le",
+      "et",
+      "je",
+      "nous",
+      "des",
+      "pour",
+      "on"
+    ],
+    "sentiment": "",
+    "representative_quotes": [
+      "Je demande de l’aide seulement à quelques membres de l’équipe pour ne pas retarder le travail. Autrement dit, on sépare les tâches, donc ce n’est pas tout le monde à la fois qui résout le problème.",
+      "En tant qu'équipe nous séparons le travail pour que tout le monde puisse travailler. Donc, chaque mebre a une tâche. Ainsi, cela va permettre à sauver du temps et aider avec la communication de l'équipe.",
+      "Je récapitule les tâches à faire et la manière de séparer le problème pour le résoudre efficacement."
+    ],
+    "anomalies": []
+  },
+  "quali3 - Cluster 1": {
+    "main_message": "Je constate une collaboration efficace et structurée dans l'équipe, avec un accent mis sur la communication claire, l'organisation des tâches et le partage des rôles. En travaillant ensemble, nous avons divisé les tâches pour résoudre le problème efficacement.",
+    "key_themes": [
+      "collaboration",
+      "communication",
+      "organisation",
+      "rôle",
+      "tâche",
+      "travail en équipe"
+    ],
+    "sentiment": "positive",
+    "representative_quotes": [
+      "On se séparait les tâches également.",
+      "En écrivant le journal de bord, je m'assure que les tâches sont bien divisé en même temps pour qu'on puisse être organisé et avoir des tâches assignées.",
+      "Dans mon équipe, on se divise les tâches par petit groupede 2 ou 3 pour être sur de bien résoudre le problème. Puis dans le petit groupe, on s'occupe d'un petit numéro ou on s'entraide pour tout."
+    ],
+    "anomalies": ""
+  },
+  "quali3 - Cluster 4": {
+    "main_message": "Je m'assure que chaque élève travaille efficacement et en équipe pour accomplir des tâches structurées, en utilisant des stratégies de division des tâches et de supervision.",
+    "key_themes": [
+      "division des tâches",
+      "travail en équipe",
+      "stratégie de lecture de problème",
+      "supervision"
+    ],
+    "sentiment": "positive",
+    "representative_quotes": [
+      "Je m’assurais que tous faisaient le travail dans le temps et que les feuilles restaient propres et en ordre.",
+      "Nous séparons les tâches pour que chacune ait quelque chose à faire, tout en priorisant le travail d'équipe (2 sur le même problème).",
+      "Je supervise pour qu'il n'y ait pas de chaos."
+    ],
+    "anomalies": []
+  },
+  "quali4 - Cluster 2": {
+    "main_message": "Je cherche à encourager la collaboration, la discussion et la recherche pour trouver une solution collective.",
+    "key_themes": [
+      "collaboration",
+      "discussion",
+      "recherche",
+      "solution",
+      "compromis"
+    ],
+    "sentiment": "positive",
+    "representative_quotes": [
+      "Je partage mon point de vue",
+      "En communiquant et en se conseillant pour unir nos forces et trouver la meilleure solution",
+      "On compare nos réponses et on explique ce qu'on a fait."
+    ],
+    "anomalies": []
+  },
+  "quali4 - Cluster 3": {
+    "main_message": "En tant qu'analyste chercheur, je m'efforce d'être rationnel et ouvert à de nouvelles idées. Je communique activement avec mon équipe pour discuter des solutions proposées et les améliorer.",
+    "key_themes": [
+      "communication",
+      "collaboration",
+      "rationality",
+      "research",
+      "critical thinking"
+    ],
+    "sentiment": "positive",
+    "representative_quotes": [
+      "En communiquant des idées pertinantes.",
+      "Je demande de l'aide aux autres élèves et au professeur afin d'avoir la bonne manière de faire",
+      "Je propose tout le temps de nouvelles idées intéressantes pour que nous puissions remettre en cause l’ancienne."
+    ],
+    "anomalies": []
+  },
+  "quali4 - Cluster 1": {
+    "main_message": "En tant qu'analyste chercheur en éducation, je m'efforce de faciliter une discussion efficace et collaborative entre les élèves pour trouver des solutions créatives au problème posé. Je promets d'être ouverte à toutes les propositions, de rechercher activement des informations pertinentes et de partager mes connaissances.",
+    "key_themes": [
+      "Discussion",
+      "Collaboration",
+      "Recherche",
+      "Solutions créatives",
+      "Partage de connaissances"
+    ],
+    "sentiment": "Positive",
+    "representative_quotes": [
+      "Je communique mon point de vue sur un problème et je consulte les autres membres pour connaître leurs idées. Par la suite, on rassemble toutes nos idées ensemble.",
+      "Je pousse la recherche et nos connaissances du sujet afin d'offrir un point de vue, des pistes de solutions et des nouvelles notions qui enrichissent et consolident nos idées, et nous mènent à la solution optimale pour notre problème.",
+      "Si nous ne sommes pas certains de la réponse, je propose que l'on adopte le problème d'une manière différente et de toujours réessayer plus d'une fois pour maximiser nos chances d'avoir la meilleure solution."
+    ],
+    "anomalies": []
+  },
+  "quali4 - Cluster 4": {
+    "main_message": "Je : En analysant les réponses, il est clair que l'équipe travaille en collaboration pour trouver une solution au problème. Les thèmes clés sont la communication, la recherche de solutions créatives et l'amélioration des idées.",
+    "key_themes": [
+      "communication",
+      "collaboration",
+      "recherche",
+      "créativité",
+      "amélioration"
+    ],
+    "sentiment": "positive",
+    "representative_quotes": [
+      "Je discute avec mes ami pour trouiver le probleme et une solution",
+      "On réfléchit chacun seul et on se partage les idées.",
+      "J'essaie de résoudre le problème et je m'assure que la solution fasse beaucoup de sens avec l'énoncé."
+    ],
+    "anomalies": []
+  },
+  "quali5 - Cluster 2": {
+    "main_message": "Je : Les élèves ont utilisé diverses méthodes pour résoudre leurs problèmes, telles que la recherche en ligne, l'utilisation de manuels et cahiers, la collaboration avec d'autres équipes et l'IA. Ils ont également consulté des sources externes et ont cherché à comparer leur point de vue pour trouver de nouvelles idées.",
+    "key_themes": [
+      "recherche en ligne",
+      "collaboration",
+      "manuels et cahiers",
+      "comparaison de points de vue",
+      "IA"
+    ],
+    "sentiment": "positive",
+    "representative_quotes": [
+      "Nous avons fait des recherches en ligne. Nous avons regardé dans nos livres.",
+      "On a discuté en équipe sur les différentes problématiques et réfléchi activement à chacun des problèmes.",
+      "En demandant aux autres équipes quelles méthodes elles ont utilisées pour les aspects qu'on était incertains."
+    ],
+    "anomalies": []
+  },
+  "quali5 - Cluster 3": {
+    "main_message": "En utilisant diverses ressources, notamment Internet et les connaissances antérieures, nous avons collaboré avec d'autres équipes pour trouver des idées et résoudre le problème efficacement.",
+    "key_themes": [
+      "Internet",
+      "Collaboration",
+      "Recherche",
+      "Connaissances antérieures"
+    ],
+    "sentiment": "Positive",
+    "representative_quotes": [
+      "Mon équipe a fait des recherches en ligne, a utilisé nos cahiers d'apprentissages, a demandé à d'autres équipes leur retour (feedback) et a posé des questions à l'enseignant pour nous clarifier des parties du travail.",
+      "Nous avons cherché dans nos cahiers pour de la matière utile et nous avons cherché en ligne.",
+      "On a fait des recherches sur Internet et consulté nos notes de cours et manuels."
+    ],
+    "anomalies": []
+  },
+  "quali5 - Cluster 1": {
+    "main_message": "Je : Les élèves ont utilisé diverses sources pour répondre à la question, notamment des recherches en ligne, des consultations d'autres équipes et des demandes aux enseignants.",
+    "key_themes": [
+      "recherche en ligne",
+      "demande auprès d'autres personnes",
+      "consultation de l'IA",
+      "demande aux autres équipes"
+    ],
+    "sentiment": "neutral",
+    "representative_quotes": [
+      "Recherche en ligne ou auprès d’autres camarades.",
+      "On demande sur google et l'IA.",
+      "En faisant des recherches ou en demandant à d’autres personnes."
+    ],
+    "anomalies": []
+  },
+  "quali5 - Cluster 4": {
+    "main_message": "En travaillant ensemble et en collaborant avec d'autres équipes, nous avons utilisé diverses méthodes pour trouver des informations utiles pour résoudre notre problème.",
+    "key_themes": [
+      "collaboration",
+      "recherche",
+      "Internet",
+      "enseignants",
+      "intuition"
+    ],
+    "sentiment": "positive",
+    "representative_quotes": [
+      "On a demandé aux enseignants et aux autres équipes pour un peu d'information qui nous a permis d'avancer.",
+      "On s'est principalement basé sur l'intuition, nous avons aussi eu recours aux notes de cours pour éviter les erreurs.",
+      "On a fait des recherches en ligne."
+    ],
+    "anomalies": [
+      "Puisque mon père et celui de Layén connaissent bien la physique, nous leur avons demandé leur opinion sur nos conceptions pour qu'ils nous aident."
+    ]
+  },
+  "quali6 - Cluster 2": {
+    "main_message": "Je demande à un élève lorsque j'ai des questions, car il est plus accessible et plus rapide pour moi.",
+    "key_themes": [
+      "demander aide",
+      "élève",
+      "professeur",
+      "compréhension"
+    ],
+    "sentiment": "positive",
+    "representative_quotes": [
+      "Quand c'est une partie de la matière, je préfère demander à un élève, si j'ai rien compris je demande à mon enseignant.",
+      "Lorsque le prof vient de le répeter et que je ne comprend pas",
+      "Quand c'est pour un problème mineur, où j'ai seulement besoin de m'assurer de quelque chose, tandis que si je demande à un prof, c'est pour qu'il m'éclaire sur le problème car il y a quelque chose que je n'ai pas compris."
+    ],
+    "anomalies": [
+      "Quand l'enseignant se moque, rit de toi, ou te ridiculise étant donné qu'il a une haine contre toi."
+    ]
+  },
+  "quali6 - Cluster 3": {
+    "main_message": "Résumé LLM indisponible. Fallback TF-IDF.",
+    "key_themes": [
+      "de",
+      "je",
+      "pas",
+      "lorsque",
+      "est",
+      "quand",
+      "que",
+      "la",
+      "le",
+      "et"
+    ],
+    "sentiment": "",
+    "representative_quotes": [
+      "Lorsque j'ai déjà demandé du prof et qu'il ne m'a pas trop aidé. Lorsque je ne trouve pas l'enseignant. Lorsque c'est une revision de dernière minute et le prof n'est pas disponible.",
+      "Lorsque la personne à côte de moi a bien compris our lorsque je trouve ma question stupide et que je ne veux pas que l'enseignant la juge.",
+      "Quand je juge que ma question est \"conne\" et que je n'ai pas envie de tâcher l'image que le prof a de moi."
+    ],
+    "anomalies": []
+  },
+  "quali6 - Cluster 1": {
+    "main_message": "Je demande à un élève lorsqu'il y a des difficultés à comprendre une matière enseignée car ils expliquent mieux et leur raisonnement est plus proche de mon mode de pensée.",
+    "key_themes": [
+      "demander aide",
+      "comprendre matière",
+      "élève meilleur expliqueur"
+    ],
+    "sentiment": "positive",
+    "representative_quotes": [
+      "Lorsque c'est quelque chose qu'il a déjà expliqué et que je ne comprends pas, reformulations d'un autre élève. Lorsque je considère que c'est seulement une petite question simple à répondre. Un autre élève pouvait me dire la matière dans des mots que je comprends mieux, par exemple.",
+      "Même si un enseignant sait plus que moi, il n’éprouve aucune difficulté dans la matière et la comprend en profondeur, et parfois cela l’empêche de voir exactement ce que je sais et ce que je ne sais pas. Il voit mon erreur, mais pas ce qui m’a amené à la faire.\nUn élève qui a compris est plus proche de ma manière de raisonner. Pas qu’il soit plus simple, mais plus facile à relier à mes propres manières de penser.",
+      "Lorsque l'enseignant a déjà expliqué la matière plusieurs fois et que je vois qu'il ou elle ne fait que se répéter je demande a un ami de l'expliquer de la façon qu'il le comprend car parfois un raisonnement plus simpliste permet de poser les bases qui permettent de comprendre une matière plus compliqué"
+    ],
+    "anomalies": ""
+  },
+  "quali6 - Cluster 4": {
+    "main_message": "Je : Les élèves ont tendance à demander aux autres étudiants plutôt qu'au professeur lorsque les explications sont complexes ou non claires, pour éviter d'être un gêneur ou de paraître stupide.",
+    "key_themes": [
+      "comprendre",
+      "explication",
+      "élève-à-élève",
+      "professeur",
+      "gêner"
+    ],
+    "sentiment": "mixed",
+    "representative_quotes": [
+      "Je préférerais avoir plus de travaux en équipe. J'aimerais être en équipe de deux.",
+      "Lorsque je ne comprends pas ce que je dois faire, lorsque la question n’est pas claire pour moi mais qu’elle l’est pour les autres.",
+      "Lorsqu'il s'agit d'une matière que je ne comprends pas et que je sais que ma coéquipière l'a comprise, je fais  avant, pour ne pas avoir honte de poser au professeur des questions toutes simples."
+    ],
+    "anomalies": []
+  }
+}

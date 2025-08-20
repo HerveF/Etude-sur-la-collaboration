@@ -1,0 +1,36 @@
+,index,0
+0,id,ID de la réponse
+1,ecole,Nom de l’école : 
+2,classe,Niveau scolaire :
+3,groupe,Identification du goupe classe :
+4,equipe,Nom de l’équipe:     
+5,nbPersEq,Nombre de personnes dans l’équipe :
+6,q1,Q1 : J'ai participé activement à la leçon de sciences.
+7,q2,Q2 : J'ai écouté attentivement lorsque d'autres élèves parlaient ou faisaient des présentations.
+8,q3,Q3 : J'ai demandé de l'aide aux autres lorsque j'ai rencontré des difficultés.
+9,q4,Q4 : La collaboration avec d'autres personnes est plus efficace pour trouver des solutions que la collaboration individuelle.
+10,q5,Q5 : Il est important de recevoir l'aide d'autres personnes pour résoudre des problèmes
+11,q6,"Q6 : Lorsque l'on est confronté à des problèmes peu familiers, il est utile de les résoudre en collaborant avec d'autres personnes."
+12,q7,"Q7 : Pendant le cours de sciences, je peux reconnaître mes avantages et mes inconvénients dans l'apprentissage."
+13,q8,"Q8 : Si des camarades de classe ont des problèmes, j'ai le devoir de les aider."
+14,q9,Q9 : Il est nécessaire de négocier avec les autres membres pour parvenir à un accord sur la solution d'un problème.
+15,q10,Q10 : Je connaissais clairement les objectifs de la leçon
+16,q11,Q11 : Il est important d'analyser les problèmes avant de les résoudre
+17,q12,Q12 : Je vais rechercher les informations afin de résoudre les problèmes.
+18,q13,Q13 : Il n'est pas nécessaire de trouver plusieurs solutions pour un même problème.
+19,q14,"Q14 : Dans les cours de sciences, il est souvent nécessaire d'utiliser des connaissances provenant d'autres matières."
+20,q15,"Q15 : Si on me fournit suffisamment d'informations, je peux acquérir de nouvelles connaissances par moi-même."
+21,q16,Q16 : Je peux organiser ce que j'ai appris après la leçon.
+22,q17,"Q17 : Lorsque je ne parviens pas à résoudre les problèmes, je réfléchis à ce que j'ai appris."
+23,genre,Genre :
+24,quali1, Comment fais-tu pour être sûr(e) que tous les membres de ton équipe comprennent bien le problème que vous essayez de résoudre ensemble ? 
+25,quali2, Comment as-tu aidé ton équipe à choisir les bonnes actions pour résoudre le problème ? 
+26,quali3, Comment aides-tu ton équipe à bien s’organiser pour résoudre un problème ?  
+27,quali4, Comment aides-tu ton équipe à améliorer les idées pour trouver la meilleure solution au problème ?  
+28,quali5, Comment ton équipe a-t-elle fait pour trouver de nouvelles idées ou informations utiles (nouvelles ressources) pour résoudre le problème ? 
+29,quali6,Dans quelles situations préfères-tu demander de l’aide à un autre élève de la classe plutôt qu’à ton enseignant(e) quand tu bloques sur un problème ?
+30,dureeAll,Temps total :
+31,duree1,Durée pour le groupe : 
+32,duree2,Durée pour le groupe : .1
+33,duree3,Durée pour le groupe : .2
+34,duree4,Durée pour le groupe : .3
