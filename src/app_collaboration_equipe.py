@@ -23,8 +23,8 @@ import sys
 # permet de prendre en compte le dossier courant dans la recherche de librairies.
 sys.path.append(os.path.abspath(os.path.join(os.getcwd(), os.pardir))) 
 
-import src.visualizations as viz
-import src.modelisation as model
+#import src.visualizations as viz
+#import src.modelisation as model
 
 ##-- On instancie les dossiers où se trouve les données
 root_path = os.path.join("..")
