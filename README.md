@@ -11,8 +11,8 @@ Les données ont été préalablement nettoyées via python afin de :
 * corriger les erreurs de saisi quand c'était possible. Par exemple, le nom de l'école avait plus de 17 modalités alors qu'il n'y en a eu que 2. Ceci provient des erreurs de saisies des élèves
 * imputées des variables manquantes via d'autre sources, notamment la constitution des équipes dont le fichier nous a été partagé suite à la detection du plusieurs anomaies
 * L'imputation par le mode des réponses pour certaines questions avec très peu de données manquantes
----
----
+
+
 Toutes ces données ont été analyser via python avant d'être mises à disposition des chercheurs pour exploitation via un site streamlit ([cliquer ici](https://etude-sur-la-collaboration-nfkprdajsbfrkcghkb8cqx.streamlit.app/)) entièrement développé en python.
 ---
 ---

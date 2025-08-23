@@ -1,0 +1,108 @@
+{
+  "quali1": {
+    "main_message": "Je m'assure de communiquer clairement avec mon équipe et d'aider chacun à comprendre les problèmes en utilisant des exemples, des questions, des discussions et des rapports de travail collaboratifs. En outre, je veille à ce que tout le monde comprend le problème et que nous avons tous les mêmes informations pour arriver à une solution commune.",
+    "key_themes": [
+      "communication",
+      "clarity",
+      "collaboration",
+      "problem-solving",
+      "understanding"
+    ],
+    "sentiment": "positive",
+    "representative_quotes": [
+      "J'essaie de résumer rapidement ce qu'on doit faire et ensuite je demande à tout le monde qu'est ce qu'il en pensent au qu'est ce qu'ils vont faire comme démarches et manipulations. Je leur demande aussi s'ils ont des idées pour résoudre le problème, que nous pouvons ensuite compiler ensemble.",
+      "Je demande de m'expliquer le raisonnement pour voir s'ils ont compris et sont à l'aise avec le sujet. \nJe leur pose des questions et leur demande de faire des liens avec des concepts / exemples de la vie de tous les jours.",
+      "Je leur pose des questions et je discute des tâches à effectuer. Je partage mon point de vue de la tâche et je m'assure que nous pensons tous la même chose. Si nos idées se diffèrent, je révise avec eux les documents."
+    ],
+    "anomalies": []
+  },
+  "quali2": {
+    "main_message": "Je m'assure que mon équipe et moi avons une bonne compréhension du problème et nous travaillons ensemble pour trouver des solutions efficaces en participant à des discussions, en proposant des idées et en recherchant des informations.",
+    "key_themes": [
+      "comprehension",
+      "collaboration",
+      "problem-solving",
+      "discussions",
+      "idées",
+      "informations",
+      "travail partagé"
+    ],
+    "sentiment": "positive",
+    "representative_quotes": [
+      "J'ai coordonné les actions de mon équipe en fonction de leurs forces et faiblesses afin de se répartir efficacement les tâches pour résoudre le problème.",
+      "J'ai partagé mon opinion et j'ai prouvé mes idées avec des sources. J'ai aussi aidé à rechercher sur leurs idées pour par la suite en discuter.",
+      "Je leur ai rappelé les notions que nous avons vu au début de l'année, l'on passé et même dans d'autres matières pour qu'elles aient les bonnes bases pour résoudre le problème."
+    ],
+    "anomalies": []
+  },
+  "quali3": {
+    "main_message": "Je m'assure de travailler en équipe pour résoudre efficacement les problèmes, en se séparant les tâches et en communiquant régulièrement. En divisant les tâches entre tous les membres de l'équipe, nous pouvons travailler plus efficacement et communiquer mieux.",
+    "key_themes": [
+      "équipe",
+      "communication",
+      "organisation",
+      "diviser les tâches",
+      "collaboration"
+    ],
+    "sentiment": "positive",
+    "representative_quotes": [
+      "Je divise les tâches selon la capacité de chacune. Si une d'entre elles est plus à l'aise à équilibrer des équations, c'est elle qui s'en chargera. De plus, je dresse une liste de choses à faire et je coche les tâches au fur et à mesure.",
+      "En séparant les tâches.",
+      "Je demande de l’aide seulement à quelques membres de l’équipe pour ne pas retarder le travail. Autrement dit, on sépare les tâches, donc ce n’est pas tout le monde à la fois qui résout le problème."
+    ],
+    "anomalies": []
+  },
+  "quali4": {
+    "main_message": "Je cherche à améliorer les solutions proposées en utilisant ma pensée critique, mes connaissances et en collaborant avec mon équipe. En travaillant ensemble, nous cherchons à trouver des solutions efficaces en utilisant la logique, les connaissances acquises et en partageant nos idées.",
+    "key_themes": [
+      "collaboration",
+      "critical thinking",
+      "knowledge sharing",
+      "problem solving",
+      "research",
+      "logique",
+      "communication",
+      "discussion"
+    ],
+    "sentiment": "positive",
+    "representative_quotes": [
+      "Je pousse la recherche et nos connaissances du sujet afin d'offrir un point de vue, des pistes de solutions et des nouvelles notions qui enrichissent et consolident nos idées, et nous mènent à la solution optimale pour notre problème.",
+      "Je donne mes idées et je médite sur les idées de tout le monde pour trouver des point forts et des point faibles pour en discuter avec mon équipe.",
+      "J'analyse les idées qui viennent en tête à chaque membre de l'équipe, en faisant une tempête d'idées. Ensuite, j'essaye de modifier les idées en foction de contexte et de problème. Je me fais également des scènarios qui évaluent les possibilitées face au problème."
+    ],
+    "anomalies": ""
+  },
+  "quali5": {
+    "main_message": "En utilisant diverses méthodes telles que la recherche en ligne, la collaboration avec d'autres équipes et le partage de connaissances, nous avons trouvé des informations utiles pour résoudre notre problème.",
+    "key_themes": [
+      "Recherche en ligne",
+      "Collaboration",
+      "Partage de connaissances",
+      "Apprentissage antérieur"
+    ],
+    "sentiment": "positive",
+    "representative_quotes": [
+      "Nous mettons en commun nos connaissances afin de pouvoir réfléchir efficacement et ensembles à des solutions. \nNous accompagnions nos réflections par des recherches en ligne pour combler nos trous de mémoire ou nos interrogations.",
+      "On a demandé aux autres équipes et on a fait des recherches en ligne pour s’inspirer.",
+      "Notre équipe a trouvé des informations en cherchant dans les cahiers d'apprentissage et en faisant des recherches sur Internet afin de nous aider à résoudre le problème."
+    ],
+    "anomalies": ""
+  },
+  "quali6": {
+    "main_message": "Je demande à un camarade quand je n'ai pas compris une notion ou que j'ai besoin d'aide pour résoudre un problème. Je préfère demander à un camarade avant mon enseignant pour obtenir des nouvelles idées et faciliter ma compréhension.",
+    "key_themes": [
+      "demander a un camarade",
+      "comprendre une notion",
+      "resoudre un probleme",
+      "enseignants",
+      "camarades"
+    ],
+    "sentiment": "positive",
+    "representative_quotes": [
+      "Même si un enseignant sait plus que moi, il n’éprouve aucune difficulté dans la matière et la comprend en profondeur, et parfois cela l’empêche de voir exactement ce que je sais et ce que je ne sais pas. Il voit mon erreur, mais pas ce qui m’a amené à la faire.\nUn élève qui a compris est plus proche de ma manière de raisonner. Pas qu’il soit plus simple, mais plus facile à relier à mes propres manières de penser.",
+      "Lorsque j'ai déjà demandé du prof et qu'il ne m'a pas trop aidé. Lorsque je ne trouve pas l'enseignant. Lorsque c'est une revision de dernière minute et le prof n'est pas disponible.",
+      "Lorsque c'est quelque chose qu'il a déjà expliqué et que je ne comprends pas, reformulations d'un autre élève. Lorsque je considère que c'est seulement une petite question simple à répondre. Un autre élève pouvait me dire la matière dans des mots que je comprends mieux, par exemple."
+    ],
+    "anomalies": ""
+  }
+}
