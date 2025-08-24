@@ -27,11 +27,11 @@ sys.path.append(os.path.abspath(os.path.join(os.getcwd(), os.pardir)))
 #import src.modelisation as model
 
 ##-- On instancie les dossiers où se trouve les données
-root_path = os.path.join("..")
-folder_raw = os.path.join(root_path,"data","raw")
-folder_interim = os.path.join(root_path,"data","interim")
-folder_processed = os.path.join(root_path,"data","processed")
-folder_viz = os.path.join(root_path,"visualizations")
+base_path = os.path.dirname("app_collaboration_equipe.py")
+#folder_raw = os.path.join(root_path,"data","raw")
+#folder_interim = os.path.join(root_path,"data","interim")
+folder_processed = os.path.join(base_path,"..","data","processed")
+#folder_viz = os.path.join(root_path,"visualizations")
 
 
 ### ============================================================================================ ###
@@ -56,7 +56,7 @@ def load_json(file_path):
             data = json.load(f)
         return data
     except FileNotFoundError:
-        st.error(f"Erruer : Le fichier '{file_path}' n'a pas été trouvé")
+        st.error(f"Erreur : Le fichier '{file_path}' n'a pas été trouvé")
         return None
     except json.JSONDecodeError:
         st.error(f"Erreur : le fichier '{file_path}' n'est pas un JSON valide")
@@ -70,7 +70,9 @@ def load_json(file_path):
 # Convertissez le DataFrame en dictionnaire
 # Utilisez la colonne des clés comme clés et la colonne des valeurs comme valeurs
 #COLUMN_ALIASES = df_ref.set_index('cle_du_dict')['valeur_du_dict'].to_dict()
-COLUMN_ALIASES = load_json(os.path.join(folder_processed,'nom_des_variables.json'))
+file_path = os.path.join(folder_processed,'nom_des_variables.json')
+#file_path = os.path.abspath(os.path.join(base_path, '..', 'data', 'processed', 'nom_des_variables.json'))
+COLUMN_ALIASES = load_json(file_path)
 COLUMN_ALIASES['equipe2'] = 'Équipe corrigée'
 COLUMN_ALIASES['nbPersEq2'] = 'Nombre de personnes par Équipe corrigée'
 COLUMN_ALIASES['typeEq'] = "Catégorisation de l'équipe selon le genre de ses membres"
