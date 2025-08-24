@@ -30,7 +30,7 @@ sys.path.append(os.path.abspath(os.path.join(os.getcwd(), os.pardir)))
 base_path = os.path.dirname("app_collaboration_equipe.py")
 #folder_raw = os.path.join(root_path,"data","raw")
 #folder_interim = os.path.join(root_path,"data","interim")
-folder_processed = os.path.join(base_path,"..","data","processed")
+folder_processed = os.path.abspath(os.path.join(base_path,"..","data","processed"))
 #folder_viz = os.path.join(root_path,"visualizations")
 
 
@@ -70,7 +70,7 @@ def load_json(file_path):
 # Convertissez le DataFrame en dictionnaire
 # Utilisez la colonne des clés comme clés et la colonne des valeurs comme valeurs
 #COLUMN_ALIASES = df_ref.set_index('cle_du_dict')['valeur_du_dict'].to_dict()
-file_path = os.path.join(folder_processed,'nom_des_variables.json')
+file_path = os.path.abspath(os.path.join(folder_processed,'nom_des_variables.json'))
 #file_path = os.path.abspath(os.path.join(base_path, '..', 'data', 'processed', 'nom_des_variables.json'))
 COLUMN_ALIASES = load_json(file_path)
 COLUMN_ALIASES['equipe2'] = 'Équipe corrigée'
@@ -104,7 +104,7 @@ def load_all_data(parquet_files):
         
     for file_name in parquet_files:
         try:
-            df = pd.read_parquet(os.path.join(folder_processed,f'{file_name}.parquet'))
+            df = pd.read_parquet(os.path.abspath(os.path.join(folder_processed,f'{file_name}.parquet')))
             all_dataframes[file_name] = df
         except FileNotFoundError:
             st.error(f"Erreur : Le fichier '{file_name}' n'a pas été trouvé. Assurez-vous qu'il se trouve dans le même répertoire que le script.")
@@ -116,7 +116,7 @@ def load_all_data(parquet_files):
 def load_joblib(file_name):
     """Charge un objet python à partir d'un fichier .joblib"""
     try:
-        objet = joblib.load(os.path.join(folder_processed,file_name))
+        objet = joblib.load(os.path.abspath(os.path.join(folder_processed,file_name)))
         return objet
     except FileNotFoundError:
         st.error(f"Erreur : Le fichier '{file_name}' n'a pas été trouvé. Assurez-vous qu'il se trouve dans le même répertoire que le script.")
@@ -1106,8 +1106,8 @@ with col2:
 st.subheader("6.2 - Résumés des avis exprimés par question ")
 
 
-llm_general = load_json(os.path.join(folder_processed,'llm_general.json'))
-llm_per_cluster = load_json(os.path.join(folder_processed,'llm_per_cluster.json'))
+llm_general = load_json(os.path.abspath(os.path.join(folder_processed,'llm_general.json')))
+llm_per_cluster = load_json(os.path.abspath(os.path.join(folder_processed,'llm_per_cluster.json')))
 
 #-- on crée le menu déroulant des questions
 llmCol = st.selectbox("Choisissez la question dont vous voulez voir le résumé des avis",
