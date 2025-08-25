@@ -21,17 +21,19 @@ import json, os
 
 import sys
 # permet de prendre en compte le dossier courant dans la recherche de librairies.
-sys.path.append(os.path.abspath(os.path.join(os.getcwd(), os.pardir))) 
+#sys.path.append(os.path.abspath(os.path.join(os.getcwd(), os.pardir))) 
 
 #import src.visualizations as viz
 #import src.modelisation as model
 
 ##-- On instancie les dossiers où se trouve les données
-base_path = os.path.dirname("app_collaboration_equipe.py")
-#folder_raw = os.path.join(root_path,"data","raw")
-#folder_interim = os.path.join(root_path,"data","interim")
-folder_processed = os.path.abspath(os.path.join(base_path,"..","data","processed"))
-#folder_viz = os.path.join(root_path,"visualizations")
+
+root_path = os.path.join(os.getcwd())
+#print(root_path)
+
+folder_processed = os.path.abspath(os.path.join(root_path,"data","processed"))
+#print(folder_processed)
+
 
 
 ### ============================================================================================ ###
@@ -72,15 +74,8 @@ def load_json(file_path):
 #COLUMN_ALIASES = df_ref.set_index('cle_du_dict')['valeur_du_dict'].to_dict()
 file_path = os.path.abspath(os.path.join(folder_processed,'nom_des_variables.json'))
 #file_path = os.path.abspath(os.path.join(base_path, '..', 'data', 'processed', 'nom_des_variables.json'))
+
 COLUMN_ALIASES = load_json(file_path)
-COLUMN_ALIASES['equipe2'] = 'Équipe corrigée'
-COLUMN_ALIASES['nbPersEq2'] = 'Nombre de personnes par Équipe corrigée'
-COLUMN_ALIASES['typeEq'] = "Catégorisation de l'équipe selon le genre de ses membres"
-COLUMN_ALIASES['cluster'] = "Classe de l'élève selon l'étude"
-COLUMN_ALIASES['genre'] = "Genre"
-COLUMN_ALIASES['ecole'] = "Écoles"
-
-
 
 # Fonction de chargement des données. On utilise st.cache_data pour la performance.
 @st.cache_data
