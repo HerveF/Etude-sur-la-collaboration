@@ -1,6 +1,6 @@
 {
   "id": "ID de la réponse",
-  "ecole": "Nom de l’école : ",
+  "ecole": "Écoles",
   "classe": "Niveau scolaire :",
   "groupe": "Identification du goupe classe :",
   "equipe": "Nom de l’équipe:     ",
@@ -22,11 +22,15 @@
   "q15": "Q15 : Si on me fournit suffisamment d'informations, je peux acquérir de nouvelles connaissances par moi-même.",
   "q16": "Q16 : Je peux organiser ce que j'ai appris après la leçon.",
   "q17": "Q17 : Lorsque je ne parviens pas à résoudre les problèmes, je réfléchis à ce que j'ai appris.",
-  "genre": "Genre :",
+  "genre": "Genre",
   "quali1": " Comment fais-tu pour être sûr(e) que tous les membres de ton équipe comprennent bien le problème que vous essayez de résoudre ensemble ? ",
   "quali2": " Comment as-tu aidé ton équipe à choisir les bonnes actions pour résoudre le problème ? ",
   "quali3": " Comment aides-tu ton équipe à bien s’organiser pour résoudre un problème ?  ",
   "quali4": " Comment aides-tu ton équipe à améliorer les idées pour trouver la meilleure solution au problème ?  ",
   "quali5": " Comment ton équipe a-t-elle fait pour trouver de nouvelles idées ou informations utiles (nouvelles ressources) pour résoudre le problème ? ",
-  "quali6": "Dans quelles situations préfères-tu demander de l’aide à un autre élève de la classe plutôt qu’à ton enseignant(e) quand tu bloques sur un problème ?"
+  "quali6": "Dans quelles situations préfères-tu demander de l’aide à un autre élève de la classe plutôt qu’à ton enseignant(e) quand tu bloques sur un problème ?",
+  "equipe2": "Équipe corrigée",
+  "nbPersEq2": "Nombre de personnes par Équipe corrigée",
+  "typeEq": "Catégorisation de l'équipe selon le genre de ses membres",
+  "cluster": "Classe de l'élève selon l'étude"
 }
